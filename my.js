@@ -24,7 +24,7 @@ function addGS() {
         },
         redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({First:"Momoko",Phone:"081-668-3441",Last:"zaq"}) // body data type must match "Content-Type" header
+        body: JSON.stringify({first:"Momoko",phone:"081-668-3441",last:"zaq"}) // body data type must match "Content-Type" header
       });
 
 }
